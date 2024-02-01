@@ -27,8 +27,8 @@ a:hover, a:focus {
 	text-decoration:underline;
 }
 figure {
-	max-width:292px;
-	max-height:164px;
+	width:292px;
+	height:164px;
 	margin:20px auto;
 	margin:1.25rem auto;
 	padding:20px;
@@ -51,7 +51,6 @@ video {
 .controls {
 	overflow:hidden;
 	background:transparent;
-	height:8.0971659919028340080971659919028%; /* of figure's height */
 	position:relative;
 }
 .controls[data-state=hidden] {
@@ -62,7 +61,6 @@ video {
 }
 .controls > * {
 	float:left;
-	width:3.90625%;
 	margin-left:0.1953125%;
 	display:block;
 }
